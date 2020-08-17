@@ -10,6 +10,14 @@ jobs:
       apt:
         packages:
           - maven
+  - os: linux
+    arch: aarch64
+    jdk: openjdk11
+    addons:
+      apt:
+        packages:
+          - maven
+          - openjdk-11-jdk
           
 jdk:
 - openjdk8
