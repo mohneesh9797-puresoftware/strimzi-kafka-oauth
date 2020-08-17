@@ -11,6 +11,7 @@ jobs:
         packages:
           - maven
   - os: linux
+    dist: bionic
     arch: aarch64
     jdk: openjdk11
     addons:
